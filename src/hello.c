@@ -36,7 +36,7 @@ short makeInt(const char* candidate, long* output) {
   return 0;
 }
 
-int main(int argc, char* argv[]) {
+int run_hello(int argc, char* argv[]) {
   int c;
   for (c=0; c < argc; c++) {
     printf("Arg %d is: %s\n", c, argv[c]);
